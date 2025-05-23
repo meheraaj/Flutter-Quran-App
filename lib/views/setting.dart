@@ -192,7 +192,7 @@ class Setting extends StatelessWidget {
                 ),
                 CupertinoListTile(
                   title: Text("Telegram", style: TextStyle(color: textColor)),
-                  onTap: () => lucnUrl('https://t.me/bs_gc'),
+                  onTap: () => lucnUrl('https://t.me/mraj_43'),
                 ),
               ],
             ),
