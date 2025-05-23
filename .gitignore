@@ -1,0 +1,70 @@
+# Generic Flutter/Dart ignores
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.vscode/
+.idea/
+.DS_Store
+build/
+
+# Android-specific ignores
+android/local.properties
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/app/src/debug/
+android/app/src/profile/
+*.iml
+*.keystore
+/android/key.properties # Specific to your project, ignore if not already there
+
+# iOS-specific ignores
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+ios/Runner/Runner-Bridging-Header.h
+ios/Runner/Runner.entitlements # Often generated, can be included if custom
+
+# Web-specific ignores
+web/flutter_service_worker.js
+web/index.html # Keep if you customize it, but ignore default generated if you don't want to track it
+web/version.json
+
+# Linux-specific ignores
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/ephemeral/
+linux/build/
+
+# macOS-specific ignores
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/build/
+
+# Windows-specific ignores
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/ephemeral/
+windows/build/
+
+# IDE and OS generated files
+*.iml
+*.bak
+*.orig
+*.swp
+*~
+# Logs
+*.log
+# Dependency directories
+node_modules/
+# Env files
+.env
+.env.*
