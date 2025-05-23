@@ -11,6 +11,11 @@ This app represents my first large-scale Flutter project (developed during 2021�
 
 ---
 
+## Live Demo
+
+Experience the app live on the web: [https://test-c0951.web.app/](https://test-c0951.web.app/)
+
+
 ## 📅 Project Status (2021–2022 Release)
 
 > 🚧 **Note:** This project was initially built with Flutter during 2021–2022. Some features may be outdated due to dependency changes and external service deprecation.
